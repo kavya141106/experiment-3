@@ -1,0 +1,13 @@
+/* Custom styling for completed tasks and UI tweaks */
+.completed-task {
+    text-decoration: line-through;
+    color: #6c757d;
+}
+
+.task-item {
+    transition: background-color 0.2s ease;
+}
+
+.task-item:hover {
+    background-color: #f8f9fa;
+}
